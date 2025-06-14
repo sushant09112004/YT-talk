@@ -6,5 +6,4 @@ youtube-transcript-api
 python-dotenv
 langchain-google-genai
 langchain-community
-chat
 pydantic
