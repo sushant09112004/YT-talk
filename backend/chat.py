@@ -2,12 +2,7 @@ import os
 import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi
 from dotenv import load_dotenv
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain_community.vectorstores import FAISS
-from langchain_core.prompts import PromptTemplate
+from youtube_transcript_api import YouTubeTranscriptApi
 
 load_dotenv()
 
