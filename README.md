@@ -50,4 +50,5 @@ Make sure you have the following installed:
 1. **Navigate to the backend folder**:
    ```bash
    cd backend
+   ```bash 
 python -m uvicorn main:app --reload --port 8000
