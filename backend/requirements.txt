@@ -7,3 +7,4 @@ python-dotenv
 langchain-google-genai
 langchain-community
 pydantic
+requests

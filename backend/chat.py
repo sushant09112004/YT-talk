@@ -17,7 +17,8 @@ def chat_with_video(video_id: str, question: str) -> str:
         prompt = f"""
         You are a helpful assistant.
         Answer ONLY from the provided transcript context.
-        If the context is insufficient, just say context not available in the video.
+        If the context is insufficient, just say context not available in the video Also return the output in Only English.
+        
 
         Transcript:
         {transcript_text}
